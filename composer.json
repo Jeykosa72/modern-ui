@@ -1,0 +1,27 @@
+{
+    "name": "modern-ui/ui",
+    "description": "Modern UI Components with Blade and Tailwindcss",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "ModernUi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ModernUI\\ModernUIServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeykosa72",
+            "email": "kristank72@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
